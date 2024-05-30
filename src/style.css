@@ -1,0 +1,24 @@
+:root {
+    --white: white;
+    --red: rgb(238, 103, 103);
+    --black: black;
+}
+
+body {
+    height: 100svh;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    height: fit-content;
+}
+
+.name {
+    background: var(--red);
+    color: var(--black);
+    font-size: 50px;
+}
