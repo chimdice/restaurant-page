@@ -1,10 +1,4 @@
-import pageLoader from "./page-load";
 import "./style.css";
+import pageFirstload from "./page-load.js"
 
-const content = document.querySelector("#content");
-
-const resturantName = document.createElement("div");
-resturantName.textContent = "Jal Pie Shop";
-resturantName.classList.add("name")
-
-content.appendChild(resturantName);
+pageFirstload()
