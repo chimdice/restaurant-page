@@ -6,19 +6,20 @@
 
 body {
     height: 100svh;
+    background: var(--red);
 }
 
 #content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--white);
-    height: fit-content;
 }
 
 .name {
-    background: var(--red);
     color: var(--black);
     font-size: 50px;
+    grid-area: 1/1/2/3;
+}
+
+.middle-top {
+    display: flex;
 }
